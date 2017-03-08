@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+/* 全局CSS定义 */
+body{font-family:"\5B8B\4F53","Arial Narrow",HELVETICA;text-align:center;margin:0 auto;padding:0;background:#FFF;font-size:12px;color:#333;}
+body > div{text-align:center;margin-right:auto;margin-left:auto;} 
+div,form,ul,ol,li,span,p{margin:0;padding:0;border:0;}
+img,a img{border:0;margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-size:12px;font-weight:normal;}
+ul,ol,li{list-style:none}
+table,td,input{font-size:12px;padding:0}
+body{background-color: #ffffff;
+background-image: url(images/bj.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+#nav{width: 100%;
+min-width: 960px;
+max-width: 1920px;
+background-color: #ffffff;
+height: 60px;
+box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.5);
+}
+.text-botton{
+	font-size: 20px;
+}
+.free-botton{
+	width: 186px;
+	height: 39px;
+	background-color: #FDCA00;
+	display: inline-block;
+	line-height: 60PX;
+	font-size: 20PX;
+}
+#top-right{float:right;
+}
+#top-left{float: left;
+}
+#nav-s{width: 732px;
+	height: 236px;
+	background-color: rgba(0,0,0,0.6);
+	border-radius: 5px;
+	margin: 100px auto;
+	padding-top: 10px;
+
+}
+.sev{width: 500px;
+	height: 50px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: none;
+
+}
+.sev-submit{
+	width: 50px;
+	height: 50px;
+	background-color: #fdca00;
+	border: none;
+	border-radius: 5px;
+	
+}
+#ad{width: 100%;
+	min-width: 960px;
+	max-width: 1920px;
+	background-color: #fdca00;
+	height: 100px;
+	line-height: 100px;
+	font-size: 30px;
+	font-family:微软雅黑 ;
+
+
+}
+#main{
+	width: 100%;
+	min-width: 960px;
+	max-width: 1920px;
+	background-color: #ffffff;
+	overflow: auto;
+	
+}
+.house{width: 1000px;
+	margin: 10px auto;
+	
+}
+.house ul{margin: 10px;}
+.house ul li{
+	float: left;
+	padding: 11px;
+	
+}
+.house ul li:hover{
+	box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.3);
+}
+#dianping{height: 440px;
+	background-image: url(images/dibubj.jpg);
+	clear: both;
+
+}
+.user-book{width: 370px;
+	height: 150px;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 5px;
+	text-align: left;
+	color: #ffffff;
+	margin: auto;
+	font-size: 15px;
+}
+.font-30px{font-size: 30px;
+	color: #ffffff;
+
+}
+.font-20px{
+	font-size: 20px;
+	color: #ffffff;
+}
+#user1{
+	width: 400px;
+	float: left;
+	position: relative;
+	left:200px;
+	top:70px;
+	
+}
+#user2{
+	width: 400px;
+	float: right;
+	position: relative;
+	right:200px;
+	top:70px;
+	
+	
+}
+.line{
+	width: 1px;
+	height: 292px;
+	border: 0px,1px,0px,0px;
+	float: left;
+
+}
+#foot{
+	width: 100%;
+	min-width: 960px;
+	max-width: 1920px;
+	background-color: #f2f2f2;
+	height: 60px;
+	line-height:60px;
+	
+}
