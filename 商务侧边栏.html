@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name='keywords' content='web前端，0基础，实战教室'>
+	<meta name='description' content='生活如此多娇，引得山炮轰轰响'>
+	<title>商务侧边栏</title>
+	<style type="text/css">
+	    *{ 
+	    	margin: 0; 
+	    	padding: 0;
+	    }
+	    li{
+	    	list-style: none;
+	    }
+		#sidebar{
+			width:230px;
+			height:480px;
+			background:#368; 
+		}
+		#sidebar ul li{
+			width: 230px;
+		}
+		#sidebar ul li:after{
+			position: absolute;/*绝对定位  子级*/
+			top:10px;
+			left:10px;
+			content: '';
+			border: 10px solid transparent;
+		}
+		#sidebar ul li a{
+			display: block;/*让a标签成为块级别显示*/
+			padding: 12px 5px 12px 35px;
+			background: #222d32;
+			line-height: 16px;
+			color: #fff;
+			text-decoration: none;
+			border-left: 3px solid transparent;/*边框：粗细  类型   颜色*/
+		}
+		#sidebar ul li a:hover{
+			border-left: 3px solid #00ffff;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="sidebar">
+		<ul>
+			<li>
+				<a href="#">首页</a>
+			</li>
+			<li>
+				<a href="#">222</a>
+			</li>
+			<li>
+				<a href="#">首页</a>
+			</li>
+			<li>
+				<a href="#">首页</a>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

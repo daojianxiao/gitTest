@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js例子</title>
+    <style type="text/css">
+        #box{
+            width: 100px;
+            height: 100px;
+            background: blue;
+            margin: 15px;
+            text-align: center;
+        }
+    </style>
+    <script>
+        window.onload=function(){
+            var bn1=document.getElementById('bn1');
+            var bn2=document.getElementById('bn2');
+            var btn=document.getElementById('btn');
+            var box=document.getElementById('box');
+
+
+            btn.onclick=function (){
+                var name=bn1.value;
+                var va=bn2.value;
+
+
+                box.style[name]=va;
+
+            }
+        }
+    </script>
+</head>
+<body>
+<input type="text" name="1" id="bn1" value="">
+<input type="text" name="2" id="bn2" value="">
+<input type="button" name="3" id="btn" value="按钮">
+<div id="box">我爱你</div>
+</body>
+</html>

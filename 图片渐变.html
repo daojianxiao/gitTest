@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片渐变</title>
+    <style type="text/css">
+        .highlightit img{
+            filter:progid:dximagetransform.microsoft.alpha(opacity=60) ;
+            -moz-opacity: 0.5;
+        }
+        .highlightit:hover img{
+            filter:progid:dximagetransform.microsoft.alpha(opacity=100) ;
+            -moz-opacity: 1;
+        }
+    </style>
+</head>
+<body>
+<a href="#" class="highlightit"><img src="bj.jpg" ></a>
+</body>
+</html>

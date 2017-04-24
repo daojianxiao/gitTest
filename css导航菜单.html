@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css导航菜单</title>
+    <style type="text/css">
+        #caidan ul{
+            list-style: none;
+        }
+        #caidan li{
+            float: left;
+        }
+        #caidan li a{
+            color: #000000;
+            text-decoration: none;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            display: block;
+            width: 100px;
+            height: 30px;
+            text-align: center;
+            padding-top20px: ;
+            background-color: #CCCCCC;
+            margin-left: 2px;
+            font-family: 微软雅黑;
+        }
+        #caidan li a:hover{
+            background-color: #333333;
+            color: #ffffff;
+        }
+        #caidan li:hover > ul{
+            display: block;}
+        /*隐藏下拉容器，绝对定位，设置最小宽度*/
+        #caidan li ul{
+            display: none;
+            position: absolute;
+            min-width: 100px;}
+        /*鼠标移入li时显示子下拉容器*/
+        #caidan li:hover > ul {
+            display: block;
+        }
+        #caidan li ul li a{
+            float: left;
+        }
+        #caidan li ul li a{
+            color: #000000;
+            text-decoration: none;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            display: block;
+            width: 100px;
+            height: 20px;
+            text-align: center;
+            background-color: #CCCC99;
+            margin-left: 2px;
+            font-family: 微软雅黑;}
+        #caidan li ul li a:hover{
+            background-color: #0099CC;
+            color: #ffffff;}
+        #caidan ul li a span{
+            display: block;
+            font-family: "Angsana New";
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body>
+<div id="caidan">
+    <ul>
+        <li><a href="#">首页<span>SHOUYE</span></a> </li>
+        <li>
+            <a href="#">新闻</a>
+            <ul>
+                <li><a href="#">排行</a> </li>
+                <li><a href="#">时政</a> </li>
+                <li><a href="#">社会</a> </li>
+                <li><a href="#">天下</a> </li>
+                <li><a href="#">时评</a> </li>
+                <li><a href="#">图表</a> </li>
+                <li><a href="#">专题</a> </li>
+                <li><a href="#">警法</a> </li>
+            </ul>
+        </li>
+        <li><a href="#">军事</a> </li>
+        <li><a href="#">历史</a> </li>
+        <li><a href="#">文化</a> </li>
+        <li><a href="#">纪实</a> </li>
+        <li><a href="#">体育</a> </li>
+        <li><a href="#">NBA</a> </li>
+    </ul>
+</div>
+</body>
+</html>
